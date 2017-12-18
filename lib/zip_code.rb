@@ -1,5 +1,4 @@
 require "zip_code/mapping"
-
 module ZipCode
   def self.find province, city, district = ''
     return '' if ZipCode::MAPPING[province].nil?
